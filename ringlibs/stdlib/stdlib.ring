@@ -103,6 +103,8 @@ Func Split cString
 	Usage		: Create a two dimensional list
 	Parameters	: Number of dimensions
 	Output		: Two Dimensional List 
+	Name            : CalmoSoft
+	Email           : calmosoft@gmail.com
 */
 
 Func Newlist x, y
