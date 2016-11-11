@@ -23,3 +23,28 @@ See Filter( 1:10 , func x { if x <= 5 return true else return false ok } )
 # Test the Split function
 Puts("Test Split()")
 See Split("one two three four five")
+
+# Test the sortFirst function
+Puts("Test sortFirst()")
+aList = [[2,2], [1,2], [3,2], [3,1], [1,1]]
+sortFirst(aList)
+
+for n=1 to len(aList)
+      for m=1 to 2
+            see aList[n][m] + " "
+      next
+      see nl
+next
+
+# Test the sortSecond function
+Puts("Test sortSecond()")
+aList = [[2,2], [1,2], [3,2], [3,1], [1,1]]
+sortSecond(aList)
+
+for n=1 to len(aList)
+      for m=1 to 2
+            see aList[n][m] + " "
+      next
+      see nl
+next
+
